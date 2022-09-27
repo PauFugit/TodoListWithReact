@@ -1,0 +1,11 @@
+.main{
+    background-color: rgb(161, 130, 161);
+    font-family: monospace;
+    padding: 2rem;
+}
+
+.text-main{
+    color: white;
+    font-size: 2rem;
+    padding: 1rem;
+}

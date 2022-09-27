@@ -1,0 +1,15 @@
+.todo-form{
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.todo-button{
+    background-color: white;
+    color: rgb(161, 130, 161);
+    
+}
+
+.todo-input{
+    color: rgb(161, 130, 161);
+    width: 20rem;
+}
