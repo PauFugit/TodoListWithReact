@@ -4,12 +4,8 @@
 }
 
 .todo-button{
-    background-color: white;
-    color: rgb(161, 130, 161);
-    
-}
-
-.todo-input{
-    color: rgb(161, 130, 161);
-    width: 20rem;
+    background-color: rgb(65, 39, 79);
+    color: #f6f4fa;
+    margin: 1rem;
+    border-radius: 0.3rem;
 }

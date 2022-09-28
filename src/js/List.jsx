@@ -1,7 +1,6 @@
 import React, {useState} from "react";
 import Form from "./Form.jsx";
 import Todo from "./Todo.jsx";
-import style from "./List.css";
 
 function List (){
     const [todos, setTodos] = useState([]);
@@ -47,7 +46,7 @@ const removeTodo = id =>{
        
         <div className="main container">
            <h1 className="text-main">
-            ¿Qué piensas hacer hoy?</h1> 
+            Todo List</h1> 
            <Form onSubmit={addTodo}/>
            <Todo todos={todos} 
            completeTodo={completeTodo}

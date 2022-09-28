@@ -2,7 +2,6 @@ import React, {useState} from "react";
 import {RiCloseCircleLine} from 'react-icons/ri';
 import {TiEdit} from 'react-icons/ti';
 import Form from "./Form.jsx";
-import styles from "./Todo.css";
 
 
 const Todo = ({todos, completeTodo, removeTodo, updateTodo}) => {

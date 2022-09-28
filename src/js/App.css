@@ -1,5 +1,73 @@
-.todolist-app{
-    background-color: rgb(85, 40, 111);
-    padding: 3rem;
+.todolist-app {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 600px;
+    min-height: 600px;
+    text-align: center;
+    margin: 128px auto;
+    border-radius: 10px;
+    padding-bottom: 32px;
+    background-image: url("https://i.pinimg.com/originals/99/61/c0/9961c0fef5f7ed6fd6f448373bdeb472.jpg");
+}
 
+.todo-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 7px auto;
+    color: white;
+    background: linear-gradient(90deg,
+            #907ce8 0%,
+            white 100%);
+
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 90%;
+}
+
+.todo-row:nth-child(4n + 1) {
+    background: linear-gradient(90deg,
+            rgb(86, 67, 163) 0%,
+            white 100%);
+}
+
+.todo-row:nth-child(4n + 2) {
+    background: linear-gradient(90deg,
+            rgb(198, 138, 202) 0%,
+            white 100%);
+}
+
+.todo-row:nth-child(4n + 3) {
+    background: linear-gradient(90deg,
+            rgb(122, 61, 136) 0%,
+            white 100%);
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.delete-icon {
+    margin-right: 0.5rem;
+    color: #7161b9;
+}
+
+.edit-icon {
+    color: #907ce8;
+}
+
+.main {
+    background-color: transparent;
+    font-family: monospace;
+    padding: 2rem;
+}
+
+.text-main {
+    color: white;
+    font-size: 2rem;
+    padding: 1rem;
 }

@@ -43,7 +43,7 @@ function Form(props) {
                 />
     
                 <button className="todo-button edit">
-                    edit task</button>
+                    Edit your task</button>
                     </>
             ) : (
                 <>
@@ -57,7 +57,7 @@ function Form(props) {
                         />
             
                         <button className="todo-button">
-                            Add task</button>
+                            Add your task</button>
                             </>
             )
 
